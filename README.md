@@ -1,5 +1,7 @@
 # avr-interrupt-macro
 
+This crate was designed for the ATmega1284p, so the interrupts and their vector numbers can differ when using a different AVR chip.
+
 This crate provides a macro to define interrupt handlers for the AVR architecture.
 As the implementation of interrupts is required to have very specific and hard to read function names, this macro
 provides a way to define interrupt handlers with a more readable name. The macro renames the given function at
